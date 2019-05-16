@@ -24,7 +24,7 @@ public class BaseActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("Title");
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.base_activity);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -57,6 +57,7 @@ public class BaseActivity extends AppCompatActivity
         if (id == R.id.first_item) {
             Intent intent = new Intent(this, FirstActivity.class);
             startActivity(intent);
+            // Важно добавить finish(), чтобы не переполнить память
             this.finish();
         } else if (id == R.id.second_item) {
             Intent intent = new Intent(this, SecondActivity.class);

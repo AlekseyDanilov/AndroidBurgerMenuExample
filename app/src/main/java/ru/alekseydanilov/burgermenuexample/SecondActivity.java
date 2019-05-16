@@ -13,10 +13,10 @@ public class SecondActivity extends BaseActivity {
         LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         setTitle("Second Activity");
 
-        //inflate your activity layout here!
+        // Устанавливаем разметку данного экрана ниже
         View contentView = inflater.inflate(R.layout.activity_second, null, false);
         drawer.addView(contentView, 0);
 
-        //Do the rest as you want for each activity
+        // Далее уже пишем код, для работы с данным экраном
     }
 }
