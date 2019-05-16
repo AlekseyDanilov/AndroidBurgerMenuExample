@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BurgerMenuExample</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Code by Aleksey Danilov</string>
+    <string name="nav_header_subtitle">danilov.developer@gmail.com</string>
+    <string name="email">danilov.developer@gmail.com</string>
+</resources>
